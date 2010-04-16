@@ -95,11 +95,11 @@ CGFloat degreesToRadiens(CGFloat degrees){
 	
 	[self drawInRect:CGRectMake(borderSize, borderSize, newWidth, newHeight)];
 	
-	if (aColor) {
-		[aColor setStroke];
-		CGContextSetLineWidth(ctx, borderSize);
-		CGContextStrokeRect(ctx, imageRect);
-	}
+//	if (aColor) {
+//		[aColor setStroke];
+//		CGContextSetLineWidth(ctx, borderSize);
+//		CGContextStrokeRect(ctx, imageRect);
+//	}
 	
 	UIImage* scaledImage = UIGraphicsGetImageFromCurrentImageContext();
 	UIGraphicsEndImageContext();
